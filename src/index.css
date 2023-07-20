@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+input {
+  outline: none;
+}
+.chats {
+  background: linear-gradient(
+      rgba(226, 226, 226, 0.7),
+      rgba(226, 226, 226, 0.7)
+    ),
+    url("./assets/chat-background.jpg");
+  background-repeat: repeat;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 5px;
+}
